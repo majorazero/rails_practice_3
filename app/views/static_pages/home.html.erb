@@ -1,5 +1,16 @@
-<h1>StaticPages#home</h1>
-<h2>
-  So this is kind of like a templating language huh.
-  erb is very strange.
-</h2>
+
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("http://pngimg.com/uploads/cat/cat_PNG50509.png", alt: "Cat") %>
+<%= link_to image_tag("https://png.pngtree.com/element_pic/00/16/09/0657cda644f08b4.jpg", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
